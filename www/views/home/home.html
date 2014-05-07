@@ -1,0 +1,9 @@
+﻿<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        Hello World! <div data-bind="text: message"></div>
+		<div>
+			Enter your name: <div data-bind="dxTextBox: { value: name }" style="width: 200px"></div>
+    		<div data-bind="dxButton: { text: 'Say Hello', clickAction: sayHello }"></div>
+		</div>
+	</div>
+</div>
