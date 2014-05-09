@@ -1,0 +1,72 @@
+#createUserDiv
+{
+	width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#businessButtonContainerPortrait
+{
+	font-size: 25px;
+	width: 80%;
+    height: 40%;
+    background-color: red;
+
+    float : left;
+
+    margin: auto;
+
+	background: url('../../img/button-images/shop-50.png') no-repeat;
+}
+
+#customerButtonContainerPortrait
+{
+	font-size: 45px;
+	width: 50%;
+    height: 70%;
+    background-color: green;
+
+    float : left;
+
+    margin: auto;
+}
+
+#businessButtonContainerLandscape
+{
+	font-size: 25px;
+	width: 50%;
+    height: 70%;
+    background-color: red;
+
+    position: absolute;
+    top:0px;
+    bottom: 0;
+    left: 0;
+
+    margin: auto;
+
+	background: url('../../img/button-images/shop-50.png') no-repeat;
+}
+
+#customerButtonContainerLandscape
+{
+	font-size: 45px;
+	width: 50%;
+    height: 70%;
+    background-color: green;
+
+    position: absolute;
+    top:0px;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+}
